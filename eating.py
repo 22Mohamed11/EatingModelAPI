@@ -77,7 +77,7 @@ def suggest_meals(food_dataset):
     return breakfast_meal, lunch_meal, dinner_meal, snacks
 
 # Load the model
-with open("G:/EatingAPI/meal_planner_model.pk1", "rb") as model_file:
+with open("meal_planner_model.pk1", "rb") as model_file:
     model = pickle.load(model_file)
     
 food_data = [
